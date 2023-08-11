@@ -1,0 +1,38 @@
+/*Extra small devices (portrait phones, screen size is smaller than 576px) */
+@media screen and (max-width: 575.98px{ 
+	.box{
+  background-color: #blueviolet;
+  }
+	}
+/*Small devices (576 to 767, landscape phones) */
+@media screen and (min-width:576px) and (max-width:767.98px) {
+.box {
+  background-color: #darkcyan;
+  }
+
+}
+/*Medium devices such as tablets, 768px and till 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+ .box{
+  background-color: #darkred;
+  }
+}
+/*large devices such as desktops starting from 992 px to 1199 */
+@media screen and (min-width:992px) and (max-width:1199.98px) {
+.box{
+  background-color: #honeydew;
+  }
+}
+/*Extra-large devices such as large desktops */ 
+@media screen and (min-width: 1200px) and (max-width:1399px) {
+	.box{
+  background-color: #blueviolet;
+  }
+}
+
+/*Extra Extra large devices */
+@media screen and (min-width: 1400px) {
+  .box{
+  background-color: #blueviolet;
+  }
+} 
